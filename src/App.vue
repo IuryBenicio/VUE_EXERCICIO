@@ -64,7 +64,6 @@ const getOperacao = () => {
     <form>
       <Display_form :estado_filtro="estado.filtro" :estado_num-a="estado.numA" :estado_num-b="estado.numB" :total="estado.total" 
       :num-a_evento="evento => estado.numA = evento.target.value" :select_evento="evento => estado.filtro = evento.target.value" :num-b_evento="evento => estado.numB = evento.target.value"/>
-
       <Buttons :getoperacao="getOperacao()" :reseta="reseta()"/>
     </form>
   </div>
